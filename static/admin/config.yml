@@ -15,7 +15,7 @@ collections:
     folder: "content/en"
     create: true
     slug: "{{slug}}"
-    path: "{{slug}}/index"       # creates page bundles (index.md)
+    path: "{{slug}}"       # originally had slug/index.md; creates page bundles (index.md)
     extension: "md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -24,7 +24,7 @@ collections:
 
   - name: "blog"
     label: "Blog"
-    folder: "content/blog"
+    folder: "content/en/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: "md"
