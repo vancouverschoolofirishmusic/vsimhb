@@ -1,0 +1,13 @@
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.150.1"
+  HUGO_ENABLEGITINFO = "true"
+
+# Avoid caching issues in the CMS app
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
