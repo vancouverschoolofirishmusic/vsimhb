@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+# Tweak these collections to match how you want to edit Hugobricks content.
+# Hugobricks ships with prebuilt pages under content/ (e.g., homepage, about, etc.).
+collections:
+  - name: "pages"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"       # creates page bundles (index.md)
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
