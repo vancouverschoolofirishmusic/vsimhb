@@ -1,5 +1,5 @@
 ---
-title: Basic page 2
+title: Basic page 3
 ---
 {{< brick_wide >}}
 
