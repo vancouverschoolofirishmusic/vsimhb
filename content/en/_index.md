@@ -3,11 +3,13 @@ title: Home
 ---
 {{< brick_intro >}}
 
-# Build your next Hugo website with stackable content bricks
+# Welcome | Fáilte
 
-Hugobricks is a free website theme for Hugo. It makes building Hugo websites child's play due to its stackable (LEGO-like) content bricks. How about this 'intro brick' with a clear call-to-action? Stack it on top of some image bricks and a pricing table and build a complete website in seconds!
+Vancouver School of Irish Music is a non-profit society with the goal of bringing authentic Irish traditional music to young people in Vancouver. Check out our blog below for a flavour of our activities!
 
-{{< button "Get started for free" "/get-started/" >}}
+We are currently enrolling for our Fall term classes (ages 7-12, tin whistle and fiddle) - see our [Classes](/classes) page for details!
+
+{{< button "All queries are welcome - email us!" "/get-started/" >}}
 
 ![](/uploads/illustrations/cuate/assets.svg)
 
