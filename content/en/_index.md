@@ -1,5 +1,5 @@
 ---
-title: Paragliding
+title: Home
 color_name: red
 ---
 {{< brick_title2 >}}
