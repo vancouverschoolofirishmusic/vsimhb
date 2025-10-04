@@ -1,7 +1,8 @@
 ---
-title: Home
+title: Paragliding
+color_name: red
 ---
-{{< brick_intro >}}
+{{< brick_title2 >}}
 
 # Welcome | Fáilte
 
@@ -9,12 +10,14 @@ Vancouver School of Irish Music is a non-profit society with the goal of bringin
 
 We are currently enrolling for our Fall term classes (ages 7-12, tin whistle and fiddle) - see our [Classes](/classes) page for details!
 
-{{< button "All queries are welcome - email us!" "/get-started/" >}}
+{{< button "Contact us!" "/get-started/" >}}
 
-![](/uploads/illustrations/cuate/assets.svg)
+![](/uploads/photos/20250603_ISM-258942.jpg
+)
 
-{{< /brick_intro >}}
-{{< brick_image2 >}}
+{{< /brick_title2 >}}
+{{< brick_image >}}
+
 
 ## What’s included in Hugobricks?
 
