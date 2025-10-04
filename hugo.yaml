@@ -1,4 +1,4 @@
-baseURL: vsimhb.netlify.app
+baseURL: https://vsimhb.netlify.app
 theme: hugobricks
 defaultContentLanguage: en
 assetDir: static
