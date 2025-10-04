@@ -13,8 +13,8 @@
     --textMedium: rgba(38, 50, 56, 0.7);
     --borderMedium: rgba(38, 50, 56, 0.2);
     --borderLight: rgba(38, 50, 56, 0.075);
-    --accent: #f4b500;
-    --accentDarker: #e6ac00;
+    --accent: #418739; /* #f4b500; */
+    --accentDarker: #2e6928; /* #e6ac00;*/
     --light: rgba(38, 50, 56, 0.035);
 }
 /*------------------------*/
