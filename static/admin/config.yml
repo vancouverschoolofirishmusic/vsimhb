@@ -31,5 +31,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Tags", name: "tags", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }    
