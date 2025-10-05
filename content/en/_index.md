@@ -12,8 +12,7 @@ We are currently enrolling for our Fall term classes (ages 7-12, tin whistle and
 
 {{< button "Contact us!" "/get-started/" >}}
 
-![](/uploads/photos/20250603_ISM-258942.jpg
-)
+![](/uploads/photos/20250603_ISM-258942.jpg)
 
 {{< /brick_title2 >}}
 {{< brick_image >}}
