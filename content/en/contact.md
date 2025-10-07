@@ -1,27 +1,21 @@
 ---
-title: Contact us
+title: Contact Us
 ---
 {{< brick_title >}}
 
 {{< breadcrumbs >}}
 
-# Contact us
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
+# Contact Us
 
 {{< /brick_title >}}
 {{< brick_contact >}}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed.
+## Email Us
 
-Soetendaal 7  
-1081BL Amsterdam  
-The Netherlands
+Please email us with any queries at
 
-joost@vdschee.nl  
-+31 618 518 928
+[info@vsim.ca](mailto:info@vsim.ca)
 
 {{< socialbuttons >}}
 
 {{< /brick_contact >}}
-{{< brick_map >}}{{< /brick_map >}}

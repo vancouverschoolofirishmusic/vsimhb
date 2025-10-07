@@ -3,25 +3,10 @@ backend:
   branch: main
 local_backend: true
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/uploads/gallery"
+public_folder: "/uploads/gallery"
 
-# Tweak these collections to match how you want to edit Hugobricks content.
-# Hugobricks ships with prebuilt pages under content/ (e.g., homepage, about, etc.).
 collections:
-  - name: "pages"
-    label: "Pages"
-    label_singular: "Page"
-    folder: "content/en"
-    create: true
-    slug: "{{slug}}"
-    path: "{{slug}}"       # originally had slug/index.md; creates page bundles (index.md)
-    extension: "md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "blog"
     label: "Blog"
     folder: "content/en/posts"
@@ -30,7 +15,7 @@ collections:
     extension: "md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "datetime", format: YYYY-MM-DD }
+      - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Body", name: "body", widget: "markdown" }    

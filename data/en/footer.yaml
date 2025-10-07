@@ -1,22 +1,16 @@
 logo_image:
 menuitems:
-  - title: About
-    link:  /about/
-  - title: Elements
-    link:  /elements/
-  - title: Privacy policy
-    link:  /privacy-policy/
+  - title: # About
+    link:  # /about/
 socials:
   - title: Facebook
-    link: https://facebook.com
+    link: https://facebook.com/vanschoolirishmusic     
     logo_image: /img/facebook.svg
-  - title: Twitter
-    link: https://twitter.com
-    logo_image: /img/twitter.svg      
-  - title: Mastodon
-    link: https://joinmastodon.org
-    logo_image: /img/mastodon.svg      
   - title: Instagram
-    link: https://instagram.com
+    link: https://instagram.com/vanschoolirishmusic
     logo_image: /img/instagram.svg
-footer_text: This theme is open source. More info on [Github](https://github.com/jhvanderschee/hugobricks)!
+  - title: YouTube
+    link: https://www.youtube.com/@VanSchoolOfIrishMusic
+    logo_image: /img/youtube_button.svg
+#footer_text: Sharing the traditional music of Ireland in a welcoming, friendly environment.
+# This theme is open source. More info on [Github](https://github.com/jhvanderschee/hugobricks)!

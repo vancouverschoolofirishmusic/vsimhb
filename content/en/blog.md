@@ -5,9 +5,9 @@ title: Blog
 
 {{< breadcrumbs >}}
 
-# Blog posts
+# Blog
 
-This is a demo of the blog. In ultricies vel enim vel pulvinar. Quisque finibus sem velit, sed consequat mi ullamcorper vitae. Proin finibus tristique sollicitudin.
+Browse our posts below to get a flavour of our activities!
 
 {{< /brick_posts >}}
-{{< brick_cta >}}{{< /brick_cta >}}
+

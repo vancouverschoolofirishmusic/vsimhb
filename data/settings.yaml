@@ -1,12 +1,12 @@
-favicon_image: /uploads/branding/vsimharp.svg
-color_name:
+favicon_image: /uploads/branding/vsimharp3.svg
+color_name: green
 sticky_header: true
 dark_header: false
 dark_footer: true
 customcursor: false
 intersectionobserver: true
 filter_has_numbers: true
-page_size: 3
+page_size: 6
 show_all_services: true
 preheader: 
   active: false

@@ -3,8 +3,8 @@ checkout_link: /checkout
 payment_link: /payment
 thankyou_link: /thankyou
 products_link: /webshop
-show_cart_icon: true
-send_order_to_mail: joost@vdschee.nl
+show_cart_icon: false
+send_order_to_mail: info@vsim.ca
 currency_code: USD
 currency_symbol: $
 shipping:
